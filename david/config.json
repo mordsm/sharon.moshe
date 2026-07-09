@@ -72,7 +72,7 @@
       "id": "mindfulness",
       "title": "מיינדפולנס",
       "badge": "RELAX",
-      "image": "https://media.tenor.com/8fqFZsC_wzEAAAAM/meditation.gif",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
       "subtitle": "מדיטציה ונשימה",
       "hero": "מסך מיינדפולנס",
       "heroDesc": "4 אפשרויות נשימה ורוגע.",
@@ -402,41 +402,6 @@
       ]
     },
     {
-      "id": "ai",
-      "title": "לימוד AI",
-      "badge": "AI",
-      "image": "https://img.youtube.com/vi/Yq0QkCxoTHM/hqdefault.jpg",
-      "subtitle": "לימוד AI מהתחלה",
-      "hero": "מסך לימוד AI",
-      "heroDesc": "4 קישורים אמיתיים ל־AI — מתחילים מאפס.",
-      "items": [
-        {
-          "title": "AI beginners",
-          "url": "https://www.youtube.com/watch?v=Yq0QkCxoTHM",
-          "desc": "AI למתחילים",
-          "thumb": "https://img.youtube.com/vi/Yq0QkCxoTHM/hqdefault.jpg"
-        },
-        {
-          "title": "AI from scratch",
-          "url": "https://www.youtube.com/watch?v=cocGYL7mRYk",
-          "desc": "AI מאפס",
-          "thumb": "https://img.youtube.com/vi/cocGYL7mRYk/hqdefault.jpg"
-        },
-        {
-          "title": "AI tutorial",
-          "url": "https://www.youtube.com/watch?v=VGFpV3Qj4as",
-          "desc": "מדריך AI",
-          "thumb": "https://img.youtube.com/vi/VGFpV3Qj4as/hqdefault.jpg"
-        },
-        {
-          "title": "AI למתחילים - עוד מקור",
-          "url": "https://www.youtube.com/results?search_query=AI+for+beginners",
-          "desc": "עוד מבוא ל־AI",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
-        }
-      ]
-    },
-    {
       "id": "detective",
       "title": "חידות בלשיות",
       "badge": "CLUE",
@@ -608,6 +573,41 @@
           "url": "https://www.google.com/search?q=%D7%AA%D7%A9%D7%91%D7%A6%D7%99%D7%9D+%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA",
           "desc": "עוד מקור לתשבצים",
           "thumb": "https://www.google.com/s2/favicons?domain=google.com&sz=128"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "לימוד AI",
+      "badge": "AI",
+      "image": "https://img.youtube.com/vi/Yq0QkCxoTHM/hqdefault.jpg",
+      "subtitle": "לימוד AI מהתחלה",
+      "hero": "מסך לימוד AI",
+      "heroDesc": "4 קישורים אמיתיים ל־AI — מתחילים מאפס.",
+      "items": [
+        {
+          "title": "AI beginners",
+          "url": "https://www.youtube.com/watch?v=Yq0QkCxoTHM",
+          "desc": "AI למתחילים",
+          "thumb": "https://img.youtube.com/vi/Yq0QkCxoTHM/hqdefault.jpg"
+        },
+        {
+          "title": "AI from scratch",
+          "url": "https://www.youtube.com/watch?v=cocGYL7mRYk",
+          "desc": "AI מאפס",
+          "thumb": "https://img.youtube.com/vi/cocGYL7mRYk/hqdefault.jpg"
+        },
+        {
+          "title": "AI tutorial",
+          "url": "https://www.youtube.com/watch?v=VGFpV3Qj4as",
+          "desc": "מדריך AI",
+          "thumb": "https://img.youtube.com/vi/VGFpV3Qj4as/hqdefault.jpg"
+        },
+        {
+          "title": "AI למתחילים - עוד מקור",
+          "url": "https://www.youtube.com/results?search_query=AI+for+beginners",
+          "desc": "עוד מבוא ל־AI",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
         }
       ]
     }
