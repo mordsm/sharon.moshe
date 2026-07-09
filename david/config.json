@@ -57,8 +57,26 @@
       "image": "assets/humor-card.svg",
       "subtitle": "ערוצי הומור פעילים באנגלית",
       "hero": "מסך הומור",
-      "heroDesc": "4 ערוצים אנגליים פעילים ומתעדכנים להומור, סטנדאפ ופרנקים.",
+      "heroDesc": "ערוצי הומור פעילים, חיפושי וידאו וטלגרם.",
       "items": [
+        {
+          "title": "FunnyLaughIL (טלגרם)",
+          "url": "https://t.me/FunnyLaughIL",
+          "desc": "ערוץ הומור בטלגרם",
+          "thumb": "https://www.google.com/s2/favicons?domain=t.me&sz=128"
+        },
+        {
+          "title": "TIKTORIKI",
+          "url": "https://www.youtube.com/results?search_query=TIKTORIKI+",
+          "desc": "חיפוש הומור נוסף",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        },
+        {
+          "title": "Just For Laughs",
+          "url": "https://www.youtube.com/results?search_query=Just+For+Laughs+",
+          "desc": "חיפוש הומור פופולרי",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        },
         {
           "title": "Just For Laughs Gags",
           "url": "https://www.youtube.com/@gags",
