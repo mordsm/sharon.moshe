@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Young Noga portrait">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe7f0"/>
+      <stop offset="100%" stop-color="#c7e8ff"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6b3f2a"/>
+      <stop offset="100%" stop-color="#2f1a12"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="url(#bg)"/>
+  <circle cx="256" cy="220" r="122" fill="#f4c7a8"/>
+  <path d="M146 208c14-76 71-124 130-124 66 0 119 55 126 130-26-28-52-48-82-54-22-4-42 2-64 11-32 13-62 29-110 37z" fill="url(#hair)"/>
+  <path d="M170 204c31-36 66-54 102-54 39 0 70 12 96 37" fill="none" stroke="#4a2b1d" stroke-width="24" stroke-linecap="round" opacity="0.95"/>
+  <ellipse cx="214" cy="226" rx="15" ry="10" fill="#3b2a24"/>
+  <ellipse cx="302" cy="226" rx="15" ry="10" fill="#3b2a24"/>
+  <path d="M214 277c17 22 62 22 80 0" fill="none" stroke="#b4685c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M182 328c26 18 52 28 74 28s48-10 74-28" fill="none" stroke="#9a5f52" stroke-width="20" stroke-linecap="round"/>
+  <path d="M196 312c14 10 34 16 60 16s46-6 60-16" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="170" cy="180" r="16" fill="#ffffff" opacity="0.4"/>
+</svg>

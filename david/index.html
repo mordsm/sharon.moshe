@@ -115,16 +115,17 @@
         detailIndexChip.textContent = `${topics.findIndex(t => t.id === id) + 1} / ${topics.length}`;
         detailImage.style.cursor = 'default';
         detailImage.title = '';
-        openFirstBtn.textContent = 'פתח/י את הראשון';
-        openFirstBtn.onclick = () => window.open(topic.items[0].url, '_blank', 'noopener');
+        openFirstBtn.style.display = 'none';
+        openFirstBtn.onclick = null;
+        openTopicInNewTab.style.display = 'none';
         openTopicInNewTab.href = `#${topic.id}`;
         copyLinkBtn.onclick = async () => {
           const text = `${location.origin}${location.pathname}#${topic.id}`;
           try { await navigator.clipboard.writeText(text); copyLinkBtn.textContent='הועתק ✓'; setTimeout(() => copyLinkBtn.textContent='העתק קישור', 900); }
           catch { alert(text); }
         };
-        detailVideosHeading.textContent = 'קישורים לנושא';
-        detailVideoIntro.textContent = 'בחרו אפשרות.';
+        detailVideosHeading.style.display = 'none';
+        detailVideoIntro.style.display = 'none';
         const actionText = 'פתח/י';
         topic.items.forEach((item, idx) => {
           const card = document.createElement('article');

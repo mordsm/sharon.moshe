@@ -7,48 +7,13 @@
       "id": "deepchat",
       "title": "נגה",
       "badge": "GPT",
-      "image": "https://v3b.fal.media/files/b/0aa17fb6/8njoNAO1GpSvfFaa6s0nM_h9u9JVRw.png",
+      "image": "assets/noga-young.svg",
       "subtitle": "שיחה מעמיקה עם נגה • לפתיחת ה־GPT",
       "hero": "נגה",
       "heroDesc": "לפתיחת ה־GPT.",
       "items": [],
       "openMode": "direct",
       "openUrl": "https://chatgpt.com/g/g-6a2c1df18e1c8191974d4d7f75415721-ngh-ytk-kshyv"
-    },
-    {
-      "id": "mindfulness",
-      "title": "מיינדפולנס",
-      "badge": "RELAX",
-      "image": "https://media.tenor.com/8fqFZsC_wzEAAAAM/meditation.gif",
-      "subtitle": "מדיטציה ונשימה",
-      "hero": "מסך מיינדפולנס",
-      "heroDesc": "4 אפשרויות נשימה ורוגע.",
-      "items": [
-        {
-          "title": "4-7-8",
-          "url": "https://www.youtube.com/watch?v=YRPh_GaiL8s",
-          "desc": "נשימת 4-7-8",
-          "thumb": "https://img.youtube.com/vi/YRPh_GaiL8s/hqdefault.jpg"
-        },
-        {
-          "title": "Box breathing",
-          "url": "https://www.youtube.com/watch?v=FjjO_cN3aYw",
-          "desc": "תרגול box breathing",
-          "thumb": "https://img.youtube.com/vi/FjjO_cN3aYw/hqdefault.jpg"
-        },
-        {
-          "title": "Breathing basics",
-          "url": "https://www.youtube.com/watch?v=acUZdGd_3Dg",
-          "desc": "נשימות למתחילים",
-          "thumb": "https://img.youtube.com/vi/acUZdGd_3Dg/hqdefault.jpg"
-        },
-        {
-          "title": "נשימה עמוקה",
-          "url": "https://www.youtube.com/results?search_query=breathing+exercise+for+anxiety",
-          "desc": "עוד תרגול נשימה",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
-        }
-      ]
     },
     {
       "id": "humor",
@@ -104,10 +69,45 @@
       ]
     },
     {
+      "id": "mindfulness",
+      "title": "מיינדפולנס",
+      "badge": "RELAX",
+      "image": "https://media.tenor.com/8fqFZsC_wzEAAAAM/meditation.gif",
+      "subtitle": "מדיטציה ונשימה",
+      "hero": "מסך מיינדפולנס",
+      "heroDesc": "4 אפשרויות נשימה ורוגע.",
+      "items": [
+        {
+          "title": "4-7-8",
+          "url": "https://www.youtube.com/watch?v=YRPh_GaiL8s",
+          "desc": "נשימת 4-7-8",
+          "thumb": "https://img.youtube.com/vi/YRPh_GaiL8s/hqdefault.jpg"
+        },
+        {
+          "title": "Box breathing",
+          "url": "https://www.youtube.com/watch?v=FjjO_cN3aYw",
+          "desc": "תרגול box breathing",
+          "thumb": "https://img.youtube.com/vi/FjjO_cN3aYw/hqdefault.jpg"
+        },
+        {
+          "title": "Breathing basics",
+          "url": "https://www.youtube.com/watch?v=acUZdGd_3Dg",
+          "desc": "נשימות למתחילים",
+          "thumb": "https://img.youtube.com/vi/acUZdGd_3Dg/hqdefault.jpg"
+        },
+        {
+          "title": "נשימה עמוקה",
+          "url": "https://www.youtube.com/results?search_query=breathing+exercise+for+anxiety",
+          "desc": "עוד תרגול נשימה",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        }
+      ]
+    },
+    {
       "id": "fitness",
       "title": "אימון גופני",
       "badge": "BODY",
-      "image": "assets/learner-card.svg",
+      "image": "assets/fitness-card.svg",
       "subtitle": "שכיבות שמיכה, סקאוט, בטן, סמוך קום, פלנק",
       "hero": "מסך אימון גופני",
       "heroDesc": "5 אפשרויות קצרות לתרגול גוף ושגרה.",
