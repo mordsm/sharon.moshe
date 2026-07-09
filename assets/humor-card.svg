@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Humor card icon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe082"/>
+      <stop offset="100%" stop-color="#ffb74d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="88" fill="url(#g)"/>
+  <circle cx="180" cy="190" r="34" fill="#3e2723"/>
+  <circle cx="332" cy="190" r="34" fill="#3e2723"/>
+  <path d="M146 308c24 58 70 88 110 88s86-30 110-88" fill="none" stroke="#3e2723" stroke-width="24" stroke-linecap="round"/>
+  <path d="M122 146c26-34 62-52 106-52 33 0 62 8 88 24" fill="none" stroke="#fff8e1" stroke-width="18" stroke-linecap="round" opacity="0.55"/>
+</svg>

@@ -4,107 +4,125 @@
   "lead": "נושאים קצרים ומסודרים לפי מה שמתאים עכשיו.",
   "topics": [
     {
+      "id": "deepchat",
+      "title": "נגה",
+      "badge": "GPT",
+      "image": "https://v3b.fal.media/files/b/0aa17fb6/8njoNAO1GpSvfFaa6s0nM_h9u9JVRw.png",
+      "subtitle": "שיחה מעמיקה עם נגה • לפתיחת ה־GPT",
+      "hero": "נגה",
+      "heroDesc": "לפתיחת ה־GPT.",
+      "items": [],
+      "openMode": "direct",
+      "openUrl": "https://chatgpt.com/g/g-6a2c1df18e1c8191974d4d7f75415721-ngh-ytk-kshyv"
+    },
+    {
       "id": "mindfulness",
       "title": "מיינדפולנס",
       "badge": "RELAX",
       "image": "https://media.tenor.com/8fqFZsC_wzEAAAAM/meditation.gif",
       "subtitle": "מדיטציה ונשימה",
       "hero": "מסך מיינדפולנס",
-      "heroDesc": "4 קישורים אמיתיים לרוגע, נשימה, ומיינדפולנס למתחילים.",
+      "heroDesc": "4 אפשרויות נשימה ורוגע.",
       "items": [
         {
-          "title": "10-Minute Meditation",
-          "url": "https://www.youtube.com/watch?v=U9YKY7fdwyg",
-          "desc": "מדיטציה למתחילים",
-          "thumb": "https://img.youtube.com/vi/U9YKY7fdwyg/hqdefault.jpg"
+          "title": "4-7-8",
+          "url": "https://www.youtube.com/watch?v=YRPh_GaiL8s",
+          "desc": "נשימת 4-7-8",
+          "thumb": "https://img.youtube.com/vi/YRPh_GaiL8s/hqdefault.jpg"
         },
         {
-          "title": "Daily Calm",
-          "url": "https://www.youtube.com/watch?v=ZToicYcHIOU",
-          "desc": "מיינדפולנס יומי",
-          "thumb": "https://img.youtube.com/vi/ZToicYcHIOU/hqdefault.jpg"
+          "title": "Box breathing",
+          "url": "https://www.youtube.com/watch?v=FjjO_cN3aYw",
+          "desc": "תרגול box breathing",
+          "thumb": "https://img.youtube.com/vi/FjjO_cN3aYw/hqdefault.jpg"
         },
         {
-          "title": "Guided Mindfulness",
-          "url": "https://www.youtube.com/watch?v=KajBjPOPIP4",
-          "desc": "מדיטציה מודרכת",
-          "thumb": "https://img.youtube.com/vi/KajBjPOPIP4/hqdefault.jpg"
+          "title": "Breathing basics",
+          "url": "https://www.youtube.com/watch?v=acUZdGd_3Dg",
+          "desc": "נשימות למתחילים",
+          "thumb": "https://img.youtube.com/vi/acUZdGd_3Dg/hqdefault.jpg"
         },
         {
-          "title": "מיינדפולנס למתחילים",
-          "url": "https://www.youtube.com/results?search_query=mindfulness+for+beginners",
-          "desc": "עוד תרגול קצר",
+          "title": "נשימה עמוקה",
+          "url": "https://www.youtube.com/results?search_query=breathing+exercise+for+anxiety",
+          "desc": "עוד תרגול נשימה",
           "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
         }
       ]
     },
     {
-      "id": "pushups",
-      "title": "שכיבת שמיכה",
-      "badge": "GIF",
-      "image": "https://media1.tenor.com/m/zYfXhGttCMEAAAAd/push-up-exercise.gif",
-      "subtitle": "תרגיל push-up אמיתי עם GIF מונפש",
-      "hero": "מסך שכיבת שמיכה",
-      "heroDesc": "4 קישורים אמיתיים לתרגול push-up — בסיסי, למתחילים, וטכניקה.",
+      "id": "humor",
+      "title": "הומור",
+      "badge": "FUN",
+      "image": "assets/humor-card.svg",
+      "subtitle": "ערוצי הומור פעילים באנגלית",
+      "hero": "מסך הומור",
+      "heroDesc": "4 ערוצים אנגליים פעילים ומתעדכנים להומור, סטנדאפ ופרנקים.",
       "items": [
         {
-          "title": "שכיבות סמיכה למתחילים - המדריך המלא!",
+          "title": "Just For Laughs Gags",
+          "url": "https://www.youtube.com/@gags",
+          "desc": "פרנקים קצרים ועדכניים",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        },
+        {
+          "title": "Comedy Central Stand-Up",
+          "url": "https://www.youtube.com/standup",
+          "desc": "סטנדאפ חזק ועדכני",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        },
+        {
+          "title": "Comedy Central Originals",
+          "url": "https://www.youtube.com/c/comedycentraloriginals",
+          "desc": "מערכונים ורעיונות קומיים",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        },
+        {
+          "title": "Comedy Central UK",
+          "url": "https://www.youtube.com/user/ComedyCentralUK",
+          "desc": "סטנדאפ ותכנים מצחיקים",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        }
+      ]
+    },
+    {
+      "id": "fitness",
+      "title": "אימון גופני",
+      "badge": "BODY",
+      "image": "assets/learner-card.svg",
+      "subtitle": "שכיבות שמיכה, סקאוט, בטן, סמוך קום, פלנק",
+      "hero": "מסך אימון גופני",
+      "heroDesc": "5 אפשרויות קצרות לתרגול גוף ושגרה.",
+      "items": [
+        {
+          "title": "שכיבות שמיכה",
           "url": "https://www.youtube.com/watch?v=6OhhvN04AU8",
-          "desc": "קישור בעברית למתחילים",
+          "desc": "תרגול push-up",
           "thumb": "https://img.youtube.com/vi/6OhhvN04AU8/hqdefault.jpg"
         },
         {
-          "title": "How To Do Push Ups For Beginners",
-          "url": "https://www.youtube.com/watch?v=0qh0MDVcc2s",
-          "desc": "קישור אמיתי למתחילים",
-          "thumb": "https://img.youtube.com/vi/0qh0MDVcc2s/hqdefault.jpg"
-        },
-        {
-          "title": "Perfect Push-Up Guide",
-          "url": "https://www.youtube.com/watch?v=uXC_3Gs9Yr0",
-          "desc": "קישור אמיתי לטכניקה נכונה",
-          "thumb": "https://img.youtube.com/vi/uXC_3Gs9Yr0/hqdefault.jpg"
-        },
-        {
-          "title": "The Perfect Push Up!",
-          "url": "https://www.youtube.com/shorts/ba8tr1NzwXU",
-          "desc": "קישור קצר ומהיר",
-          "thumb": "https://img.youtube.com/vi/ba8tr1NzwXU/hqdefault.jpg"
-        }
-      ]
-    },
-    {
-      "id": "squat",
-      "title": "סקאוט",
-      "badge": "GIF",
-      "image": "https://media1.tenor.com/m/jAjshaoXrewAAAAd/sumo-squat-exercise.gif",
-      "subtitle": "כפיפת ברכיים / squat עם GIF מתאים",
-      "hero": "מסך סקאוט",
-      "heroDesc": "4 קישורים אמיתיים לסקוואט — בסיסי, מתחילים, וטכניקה.",
-      "items": [
-        {
-          "title": "Exercise Tutorial - Squat",
+          "title": "סקאוט",
           "url": "https://www.youtube.com/watch?v=xqvCmoLULNY",
-          "desc": "קישור אמיתי לבסיס",
+          "desc": "תרגול squat",
           "thumb": "https://img.youtube.com/vi/xqvCmoLULNY/hqdefault.jpg"
         },
         {
-          "title": "Beginner's Guide: Squat",
-          "url": "https://www.youtube.com/watch?v=4Pg2PeH9U_Y",
-          "desc": "קישור אמיתי למתחילים",
-          "thumb": "https://img.youtube.com/vi/4Pg2PeH9U_Y/hqdefault.jpg"
+          "title": "בטן",
+          "url": "https://www.youtube.com/watch?v=xsvLYAplbXw",
+          "desc": "אימון בטן למתחילים",
+          "thumb": "https://img.youtube.com/vi/xsvLYAplbXw/hqdefault.jpg"
         },
         {
-          "title": "Bodyweight Squat Tutorial",
-          "url": "https://www.youtube.com/watch?v=P-yaD24bUE8",
-          "desc": "קישור אמיתי לטכניקה",
-          "thumb": "https://img.youtube.com/vi/P-yaD24bUE8/hqdefault.jpg"
+          "title": "סמוך קום",
+          "url": "https://www.youtube.com/watch?v=q199PTEdWQg",
+          "desc": "שגרת בוקר וקימה מוקדמת",
+          "thumb": "https://img.youtube.com/vi/q199PTEdWQg/hqdefault.jpg"
         },
         {
-          "title": "עוד מדריך לסקוואט",
-          "url": "https://www.youtube.com/results?search_query=squat+tutorial+for+beginners",
-          "desc": "עוד כיוון לסקוואט",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+          "title": "פלנק",
+          "url": "https://www.youtube.com/watch?v=ASdvN_XEl_c",
+          "desc": "תרגול plank בסיסי",
+          "thumb": "https://img.youtube.com/vi/ASdvN_XEl_c/hqdefault.jpg"
         }
       ]
     },
@@ -249,18 +267,6 @@
       ]
     },
     {
-      "id": "deepchat",
-      "title": "נגה",
-      "badge": "GPT",
-      "image": "https://v3b.fal.media/files/b/0aa17fb6/8njoNAO1GpSvfFaa6s0nM_h9u9JVRw.png",
-      "subtitle": "שיחה מעמיקה עם נגה • לפתיחת ה־GPT",
-      "hero": "נגה",
-      "heroDesc": "לפתיחת ה־GPT.",
-      "items": [],
-      "openMode": "direct",
-      "openUrl": "https://chatgpt.com/g/g-6a2c1df18e1c8191974d4d7f75415721-ngh-ytk-kshyv"
-    },
-    {
       "id": "mai",
       "title": "מאי",
       "badge": "MENTOR",
@@ -338,41 +344,6 @@
           "title": "מתיחות נוספות",
           "url": "https://www.youtube.com/results?search_query=stretch+routine+beginner",
           "desc": "עוד תרגול גמישות",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
-        }
-      ]
-    },
-    {
-      "id": "wakeearly",
-      "title": "סמוך קום",
-      "badge": "MORNING",
-      "image": "https://img.youtube.com/vi/q199PTEdWQg/hqdefault.jpg",
-      "subtitle": "קימה מוקדמת ושגרה",
-      "hero": "מסך סמוך קום",
-      "heroDesc": "4 קישורים אמיתיים לבוקר, הרגלים ושינה מסודרת.",
-      "items": [
-        {
-          "title": "Wake early",
-          "url": "https://www.youtube.com/watch?v=q199PTEdWQg",
-          "desc": "לקום מוקדם",
-          "thumb": "https://img.youtube.com/vi/q199PTEdWQg/hqdefault.jpg"
-        },
-        {
-          "title": "Morning habits",
-          "url": "https://www.youtube.com/watch?v=3NfSC__Q4OU",
-          "desc": "הרגלי בוקר",
-          "thumb": "https://img.youtube.com/vi/3NfSC__Q4OU/hqdefault.jpg"
-        },
-        {
-          "title": "Sleep schedule",
-          "url": "https://www.youtube.com/watch?v=Cx74Vm-s1wk",
-          "desc": "סידור שינה",
-          "thumb": "https://img.youtube.com/vi/Cx74Vm-s1wk/hqdefault.jpg"
-        },
-        {
-          "title": "היגיינת שינה",
-          "url": "https://www.youtube.com/results?search_query=sleep+hygiene+morning+routine",
-          "desc": "עוד הרגל בוקר",
           "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
         }
       ]
