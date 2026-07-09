@@ -47,7 +47,7 @@
           <p id="detailSubtitle">תיאור</p>
         </div>
         <div class="detail-hero"><div class="hero-media"><img id="detailImage" alt=""></div><div class="hero-copy"><h3 id="detailHeroTitle">מסך הנושא</h3><p id="detailHeroDesc"></p><div class="hero-actions"><button class="btn primary" id="openFirstBtn" type="button">פתח/י את הראשון</button><button class="btn" id="copyLinkBtn" type="button">העתק קישור</button></div></div></div>
-        <div class="videos"><h4>4 אפשרויות / קישורים לנושא</h4><p class="sub" id="detailVideoIntro">כל לחיצה פותחת את הסרטון המתאים.</p><div class="video-grid" id="videoGrid"></div></div>
+        <div class="videos"><h4>קישורים לנושא</h4><p class="sub" id="detailVideoIntro">כל לחיצה פותחת את הסרטון המתאים.</p><div class="video-grid" id="videoGrid"></div></div>
         <div class="footer"><div>לחיצה על נושא אחר תחזיר אותך למסך אחר מיד.</div><a class="section-link" id="openTopicInNewTab" href="#" target="_blank" rel="noopener">פתח את הנושא בטאב חדש</a></div>
       </aside>
     </main>
@@ -123,7 +123,7 @@
           try { await navigator.clipboard.writeText(text); copyLinkBtn.textContent='הועתק ✓'; setTimeout(() => copyLinkBtn.textContent='העתק קישור', 900); }
           catch { alert(text); }
         };
-        detailVideosHeading.textContent = '4 אפשרויות / קישורים לנושא';
+        detailVideosHeading.textContent = 'קישורים לנושא';
         detailVideoIntro.textContent = 'בחרו אפשרות.';
         const actionText = 'פתח/י';
         topic.items.forEach((item, idx) => {

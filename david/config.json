@@ -4,6 +4,41 @@
   "lead": "נושאים קצרים ומסודרים לפי מה שמתאים עכשיו.",
   "topics": [
     {
+      "id": "mindfulness",
+      "title": "מיינדפולנס",
+      "badge": "RELAX",
+      "image": "https://media.tenor.com/8fqFZsC_wzEAAAAM/meditation.gif",
+      "subtitle": "מדיטציה ונשימה",
+      "hero": "מסך מיינדפולנס",
+      "heroDesc": "4 קישורים אמיתיים לרוגע, נשימה, ומיינדפולנס למתחילים.",
+      "items": [
+        {
+          "title": "10-Minute Meditation",
+          "url": "https://www.youtube.com/watch?v=U9YKY7fdwyg",
+          "desc": "מדיטציה למתחילים",
+          "thumb": "https://img.youtube.com/vi/U9YKY7fdwyg/hqdefault.jpg"
+        },
+        {
+          "title": "Daily Calm",
+          "url": "https://www.youtube.com/watch?v=ZToicYcHIOU",
+          "desc": "מיינדפולנס יומי",
+          "thumb": "https://img.youtube.com/vi/ZToicYcHIOU/hqdefault.jpg"
+        },
+        {
+          "title": "Guided Mindfulness",
+          "url": "https://www.youtube.com/watch?v=KajBjPOPIP4",
+          "desc": "מדיטציה מודרכת",
+          "thumb": "https://img.youtube.com/vi/KajBjPOPIP4/hqdefault.jpg"
+        },
+        {
+          "title": "מיינדפולנס למתחילים",
+          "url": "https://www.youtube.com/results?search_query=mindfulness+for+beginners",
+          "desc": "עוד תרגול קצר",
+          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+        }
+      ]
+    },
+    {
       "id": "pushups",
       "title": "שכיבת שמיכה",
       "badge": "GIF",
@@ -69,41 +104,6 @@
           "title": "עוד מדריך לסקוואט",
           "url": "https://www.youtube.com/results?search_query=squat+tutorial+for+beginners",
           "desc": "עוד כיוון לסקוואט",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
-        }
-      ]
-    },
-    {
-      "id": "mindfulness",
-      "title": "מיינדפולנס",
-      "badge": "RELAX",
-      "image": "https://media.tenor.com/8fqFZsC_wzEAAAAM/meditation.gif",
-      "subtitle": "מדיטציה ונשימה",
-      "hero": "מסך מיינדפולנס",
-      "heroDesc": "4 קישורים אמיתיים לרוגע, נשימה, ומיינדפולנס למתחילים.",
-      "items": [
-        {
-          "title": "10-Minute Meditation",
-          "url": "https://www.youtube.com/watch?v=U9YKY7fdwyg",
-          "desc": "מדיטציה למתחילים",
-          "thumb": "https://img.youtube.com/vi/U9YKY7fdwyg/hqdefault.jpg"
-        },
-        {
-          "title": "Daily Calm",
-          "url": "https://www.youtube.com/watch?v=ZToicYcHIOU",
-          "desc": "מיינדפולנס יומי",
-          "thumb": "https://img.youtube.com/vi/ZToicYcHIOU/hqdefault.jpg"
-        },
-        {
-          "title": "Guided Mindfulness",
-          "url": "https://www.youtube.com/watch?v=KajBjPOPIP4",
-          "desc": "מדיטציה מודרכת",
-          "thumb": "https://img.youtube.com/vi/KajBjPOPIP4/hqdefault.jpg"
-        },
-        {
-          "title": "מיינדפולנס למתחילים",
-          "url": "https://www.youtube.com/results?search_query=mindfulness+for+beginners",
-          "desc": "עוד תרגול קצר",
           "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
         }
       ]
@@ -270,7 +270,7 @@
       "heroDesc": "לפתיחת ה־GPT של מאי.",
       "items": [],
       "openMode": "direct",
-      "openUrl": "https://chatgpt.com/g/g-6a2c1df18e1c8191974d4d7f75415721-ngh-ytk-kshyv"
+      "openUrl": "https://chatgpt.com/c/6a41f171-1f98-83ed-9284-be7dc13c45c4"
     },
     {
       "id": "nlp",
@@ -381,7 +381,7 @@
       "id": "learning",
       "title": "לימוד",
       "badge": "STUDY",
-      "image": "assets/crashcourses-card.svg",
+      "image": "assets/learner-card.svg",
       "subtitle": "Crash Courses, קמפוס ו־Justin Sung",
       "hero": "מסך לימוד",
       "heroDesc": "4 אפשרויות אמיתיות ללימוד מהיר ומעשי.",
@@ -487,33 +487,33 @@
       "title": "חידות בלשיות",
       "badge": "CLUE",
       "image": "https://img.youtube.com/vi/g0tH55wLelw/hqdefault.jpg",
-      "subtitle": "חידות וחשיבה בלשית",
+      "subtitle": "חידות וחשיבה בלשית בעברית",
       "hero": "מסך חידות בלשיות",
-      "heroDesc": "4 קישורים אמיתיים לחידה, רמזים ומסתורין.",
+      "heroDesc": "4 מקורות עבריים לחידות בלשיות — לא רק יוטיוב.",
       "items": [
         {
-          "title": "Detective puzzle",
-          "url": "https://www.youtube.com/watch?v=g0tH55wLelw",
-          "desc": "חידת בלש",
-          "thumb": "https://img.youtube.com/vi/g0tH55wLelw/hqdefault.jpg"
+          "title": "חידות סיטואציה בלשיות",
+          "url": "https://sites.google.com/view/yuni-smart-activities/situation-puzzles",
+          "desc": "חידה בלשית בעברית",
+          "thumb": "https://www.google.com/s2/favicons?domain=sites.google.com&sz=128"
         },
         {
-          "title": "Clue game",
-          "url": "https://www.youtube.com/watch?v=9zlrnopKNs0",
-          "desc": "משחק רמזים",
-          "thumb": "https://img.youtube.com/vi/9zlrnopKNs0/hqdefault.jpg"
+          "title": "8 חידות בלשיות מאתגרות",
+          "url": "https://www.baba-mail.co.il/content.aspx?emailid=41917",
+          "desc": "תעלומות וחידות חקירה",
+          "thumb": "https://www.google.com/s2/favicons?domain=baba-mail.co.il&sz=128"
         },
         {
-          "title": "Mystery riddle",
-          "url": "https://www.youtube.com/watch?v=nKGD-aEQEos",
-          "desc": "חידת מסתורין",
-          "thumb": "https://img.youtube.com/vi/nKGD-aEQEos/hqdefault.jpg"
+          "title": "חידות קצרות",
+          "url": "https://kibbutz.org.il/he/sh/sh-article/%D7%97%D7%99%D7%93%D7%95%D7%AA-%D7%A7%D7%A6%D7%A8%D7%95%D7%AA",
+          "desc": "חידות קצרות בעברית",
+          "thumb": "https://www.google.com/s2/favicons?domain=kibbutz.org.il&sz=128"
         },
         {
-          "title": "פאזלים לוגיים",
-          "url": "https://www.youtube.com/results?search_query=logic+puzzles",
-          "desc": "עוד חידה בלשית",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+          "title": "חידודים",
+          "url": "https://hebrew-academy.org.il/topic/%D7%91%D7%99%D7%AA-%D7%9C%D7%9E%D7%95%D7%A8%D7%99%D7%9D/%D7%9C%D7%A9%D7%97%D7%A7-%D7%91%D7%A2%D7%91%D7%A8%D7%99%D7%AA/%D7%97%D7%99%D7%93%D7%95%D7%93%D7%99%D7%9D/",
+          "desc": "חידות לשון וחשיבה",
+          "thumb": "https://www.google.com/s2/favicons?domain=hebrew-academy.org.il&sz=128"
         }
       ]
     },
