@@ -7,7 +7,7 @@
       "id": "deepchat",
       "title": "נגה",
       "badge": "GPT",
-      "image": "assets/noga-young.svg",
+      "image": "../assets/noga-young.svg",
       "subtitle": "שיחה מעמיקה עם נגה • לפתיחת ה־GPT",
       "hero": "נגה",
       "heroDesc": "לפתיחת ה־GPT.",
@@ -19,7 +19,7 @@
       "id": "humor",
       "title": "הומור",
       "badge": "FUN",
-      "image": "assets/humor-card.svg",
+      "image": "../assets/humor-card.svg",
       "subtitle": "ערוצי הומור פעילים באנגלית",
       "hero": "מסך הומור",
       "heroDesc": "ערוצי הומור פעילים, חיפושי וידאו וטלגרם.",
@@ -107,7 +107,7 @@
       "id": "fitness",
       "title": "אימון גופני",
       "badge": "BODY",
-      "image": "assets/fitness-card.svg",
+      "image": "../assets/fitness-card.svg",
       "subtitle": "שכיבות שמיכה, סקאוט, בטן, סמוך קום, פלנק",
       "hero": "מסך אימון גופני",
       "heroDesc": "5 אפשרויות קצרות לתרגול גוף ושגרה.",
@@ -253,11 +253,23 @@
       "id": "breathing",
       "title": "נשימות",
       "badge": "BREATHE",
-      "image": "https://img.youtube.com/vi/acUZdGd_3Dg/hqdefault.jpg",
+      "image": "../assets/breathing-card.svg",
       "subtitle": "תרגילי נשימה ורוגע",
       "hero": "מסך נשימות",
-      "heroDesc": "4 קישורים אמיתיים לתרגול נשימה ולרוגע.",
+      "heroDesc": "4 קישורים אמיתיים לנשימה ולרוגע.",
       "items": [
+        {
+          "title": "4-7-8",
+          "url": "https://www.youtube.com/watch?v=YRPh_GaiL8s",
+          "desc": "נשימת 4-7-8",
+          "thumb": "https://img.youtube.com/vi/YRPh_GaiL8s/hqdefault.jpg"
+        },
+        {
+          "title": "Box breathing",
+          "url": "https://www.youtube.com/watch?v=FjjO_cN3aYw",
+          "desc": "תרגול box breathing",
+          "thumb": "https://img.youtube.com/vi/FjjO_cN3aYw/hqdefault.jpg"
+        },
         {
           "title": "Breathing basics",
           "url": "https://www.youtube.com/watch?v=acUZdGd_3Dg",
@@ -265,22 +277,10 @@
           "thumb": "https://img.youtube.com/vi/acUZdGd_3Dg/hqdefault.jpg"
         },
         {
-          "title": "Box breathing",
-          "url": "https://www.youtube.com/watch?v=0BNejY1e9ik",
-          "desc": "תרגול box breathing",
-          "thumb": "https://img.youtube.com/vi/0BNejY1e9ik/hqdefault.jpg"
-        },
-        {
-          "title": "Deep breathing",
+          "title": "נשימה עמוקה",
           "url": "https://www.youtube.com/watch?v=9jpchJcKivk",
           "desc": "נשימה עמוקה",
           "thumb": "https://img.youtube.com/vi/9jpchJcKivk/hqdefault.jpg"
-        },
-        {
-          "title": "נשימה עמוקה",
-          "url": "https://www.youtube.com/results?search_query=breathing+exercise+for+anxiety",
-          "desc": "עוד תרגול נשימה",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
         }
       ]
     },
@@ -295,41 +295,6 @@
       "items": [],
       "openMode": "direct",
       "openUrl": "https://chatgpt.com/c/6a41f171-1f98-83ed-9284-be7dc13c45c4"
-    },
-    {
-      "id": "nlp",
-      "title": "לימוד NLP",
-      "badge": "BEGINNER",
-      "image": "https://img.youtube.com/vi/Rj-OtK2n5jU/hqdefault.jpg",
-      "subtitle": "לימוד NLP מהתחלה",
-      "hero": "מסך לימוד NLP",
-      "heroDesc": "4 קישורים אמיתיים ל־NLP — מתחילים מאפס.",
-      "items": [
-        {
-          "title": "NLP beginners",
-          "url": "https://www.youtube.com/watch?v=Rj-OtK2n5jU",
-          "desc": "NLP למתחילים",
-          "thumb": "https://img.youtube.com/vi/Rj-OtK2n5jU/hqdefault.jpg"
-        },
-        {
-          "title": "NLP from scratch",
-          "url": "https://www.youtube.com/watch?v=R-AG4-qZs1A",
-          "desc": "NLP מאפס",
-          "thumb": "https://img.youtube.com/vi/R-AG4-qZs1A/hqdefault.jpg"
-        },
-        {
-          "title": "NLP tutorial",
-          "url": "https://www.youtube.com/watch?v=M7SWr5xObkA",
-          "desc": "מדריך NLP",
-          "thumb": "https://img.youtube.com/vi/M7SWr5xObkA/hqdefault.jpg"
-        },
-        {
-          "title": "NLP למתחילים - עוד מקור",
-          "url": "https://www.youtube.com/results?search_query=NLP+for+beginners",
-          "desc": "עוד מבוא ל־NLP",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
-        }
-      ]
     },
     {
       "id": "flexibility",
@@ -370,7 +335,7 @@
       "id": "learning",
       "title": "לימוד",
       "badge": "STUDY",
-      "image": "assets/learner-card.svg",
+      "image": "../assets/learner-card.svg",
       "subtitle": "Crash Courses, קמפוס ו־Justin Sung",
       "hero": "מסך לימוד",
       "heroDesc": "4 אפשרויות אמיתיות ללימוד מהיר ומעשי.",
@@ -394,18 +359,18 @@
           "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
         },
         {
-          "title": "Khan Academy",
-          "url": "https://www.youtube.com/@khanacademy",
-          "desc": "לימוד מסודר מהתחלה",
-          "thumb": "https://www.google.com/s2/favicons?domain=youtube.com&sz=128"
+          "title": "NLP למתחילים",
+          "url": "https://www.youtube.com/watch?v=Rj-OtK2n5jU",
+          "desc": "לימוד NLP כסרטון אחד",
+          "thumb": "https://img.youtube.com/vi/Rj-OtK2n5jU/hqdefault.jpg"
         }
       ]
     },
     {
       "id": "calisthenics",
-      "title": "קלנטיקס",
+      "title": "קליסטניקס",
       "badge": "BODYWEIGHT",
-      "image": "https://img.youtube.com/vi/XQJp42f7GJQ/hqdefault.jpg",
+      "image": "../assets/fitness-card.svg",
       "subtitle": "אימון גוף־משקל",
       "hero": "מסך קלנטיקס",
       "heroDesc": "4 קישורים אמיתיים לעולם הקלנטיקס והאימון.",
@@ -580,7 +545,7 @@
       "id": "chess",
       "title": "בעיות שח",
       "badge": "CHESS",
-      "image": "assets/chess-card.svg",
+      "image": "../assets/chess-card.svg",
       "subtitle": "אימון טקטיקה ובעיות שחמט",
       "hero": "מסך בעיות שח",
       "heroDesc": "4 מקורות אמיתיים לתרגול טקטיקה ושחמט.",
@@ -615,7 +580,7 @@
       "id": "crossword",
       "title": "תשבצים בעברית",
       "badge": "PUZZLE",
-      "image": "assets/crossword-card.svg",
+      "image": "../assets/crossword-card.svg",
       "subtitle": "מקורות ברורים לתשבצים בעברית",
       "hero": "מסך תשבצים בעברית",
       "heroDesc": "4 מקורות עזר בעברית — לא סרטונים.",

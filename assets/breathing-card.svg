@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Breathing card icon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dff6ff"/>
+      <stop offset="100%" stop-color="#8ac7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="url(#bg)"/>
+  <circle cx="256" cy="236" r="78" fill="#ffffff" opacity="0.65"/>
+  <path d="M142 286c38-58 72-88 114-88 42 0 76 30 114 88" fill="none" stroke="#2f6f9a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M112 342c58-34 108-52 144-52 36 0 86 18 144 52" fill="none" stroke="#2f6f9a" stroke-width="18" stroke-linecap="round" opacity="0.85"/>
+  <path d="M256 110v132" stroke="#2f6f9a" stroke-width="20" stroke-linecap="round"/>
+  <path d="M230 146l26-36 26 36" fill="none" stroke="#2f6f9a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M182 188c24-22 56-36 74-36 26 0 50 8 74 36" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+</svg>
