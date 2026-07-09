@@ -27,10 +27,8 @@
 <body>
   <div class="app"><div class="shell">
     <header class="topbar">
-      <span class="eyebrow">מארח קבוע: sharon.moshe • גרסה נקייה v4</span>
       <h1>יום שלי</h1>
       <p class="lead">נושאים קצרים ומסודרים לפי מה שמתאים עכשיו.</p>
-      <div class="stats"><div class="chip">4 אפשרויות לכל נושא</div><div class="chip">עברית מלאה</div></div>
     </header>
     <main class="layout">
       <section class="panel" id="menuPanel">
@@ -98,13 +96,8 @@
       if (heroCopy) heroCopy.style.display = showHero ? '' : 'none';
       detailTitle.textContent = topic.title; detailSubtitle.textContent = topic.subtitle; detailImage.src = topic.image; detailImage.alt = topic.title; detailHeroTitle.textContent = topic.hero; detailHeroDesc.textContent = topic.heroDesc; detailIndexChip.textContent = `${topics.findIndex(t => t.id === id) + 1} / ${topics.length}`;
       if (topic.id === 'deepchat' || topic.id === 'mai') {
-        detailImage.style.cursor = 'pointer';
-        detailImage.title = topic.id === 'mai' ? 'לפתיחת ה־GPT של מאי' : 'לפתיחת ה־GPT';
-        detailImage.onclick = () => window.open(NOGA_GPT_URL, '_blank', 'noopener');
-        openFirstBtn.textContent = 'פתח/י את GPT';
-        openFirstBtn.onclick = () => window.open(NOGA_GPT_URL, '_blank', 'noopener');
-        openTopicInNewTab.href = NOGA_GPT_URL;
-        copyLinkBtn.onclick = async () => { try { await navigator.clipboard.writeText(NOGA_GPT_URL); copyLinkBtn.textContent='הועתק ✓'; setTimeout(() => copyLinkBtn.textContent='העתק קישור', 900); } catch { alert(NOGA_GPT_URL); } };
+        window.open(NOGA_GPT_URL, '_blank', 'noopener');
+        return;
       } else {
         detailImage.style.cursor = 'default';
         detailImage.title = '';
