@@ -104,8 +104,8 @@
         copyLinkBtn.onclick = null;
         const heroMedia = detailImage.closest('.hero-media');
         const heroCopy = detailHeroTitle.closest('.hero-copy');
-        if (heroMedia) heroMedia.style.display = '';
-        if (heroCopy) heroCopy.style.display = '';
+        if (heroMedia) heroMedia.style.display = 'none';
+        if (heroCopy) heroCopy.style.display = 'none';
         detailTitle.textContent = topic.title;
         detailSubtitle.textContent = topic.subtitle;
         detailImage.src = topic.image;
